@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:#efbecb;
+}
+
+
+.wrapper {
+  max-width: 1460px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+.topnav {
+  background-color: #b7d87a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+}
+.navbar {
+  width: 100%;
+  background-color: #b3d474;
+  display: flex;
+  align-items: center;
+  padding: 18px 40px;
+}
+
+.nav-logo {
+  height: 100px;
+  width: auto;
+}
+
+
+.nav-links {
+  margin-right: auto;    
+  display: flex;
+  gap: 35px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+
+.nav-links a:hover {
+  opacity: 0.7;
+}
+
+
+
+
+.hero-img {
+
+ width: 100%;
+  height: 1000px;     
+  object-fit: cover; 
+  display: block;
+  
+ 
+}
+
+
+
+    .about-header {
+  background-color:#F2E5BD;  
+  width: 100%;
+  padding: 75px 40px;       
+  display: flex;
+  justify-content: center;     
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 40px;
+  position: relative;
+}
+
+.about-title {
+  font-size: 100px;            
+  color:  #D9326F;
+  margin: 0;
+  line-height: 1;
+  font-family: "Homemade Apple"; 
+}
+
+
+  
+
+
+.about-content {
+  display: flex;
+  gap: 20px;
+  color: #D9326F;
+font-size: 2.8rem;
+font-style: normal;
+line-height: normal;
+}
+
+
+
+
+
+.about-img {
+  width: 700px;
+  border-radius: 20px;
+}
+
+
+
+.skills {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  margin-top: 40px;   
+}
+
+
+
+
+
+.skills-card {
+  background: #A3C4D9;    
+  padding: 40px 60px;
+  border-radius: 20px;
+  width: 100%;              
+  max-width: 750px; 
+
+  text-align: center;
+  
+}
+
+
+.skills-title {
+  font-family: "Homemade Apple";   
+  font-size: 40px;
+  margin:  25px;
+  color: #3a3a3a;
+}
+
+
+.skills-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.skills-icons img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+  
+
+.projects-header {
+  background-color: #b3d474;
+  width: 100%;
+  padding: 25px 40px;
+  display: flex;
+ justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 40px;
+  
+}
+
+
+.projects-banner {
+  height: 150px;          
+  position: relative;    
+  margin-top: 20px;
+}
+
+
+.projects-title {
+  font-size: 100px;            
+  color: #3a3a3a;
+  margin: 0;
+  line-height: 1;  
+font-family: "Homemade Apple";
+  transform: translateY(-3px)
+}
+
+
+.projects-bunny {
+height: 200px;       
+  width: auto;
+  object-fit: contain;
+  transform: translateY(-2px)
+ }
+
+
+
+
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 30px;
+}
+
+ .projects-wrapper {
+  max-width: 1460px;   
+  margin: 0 auto;     
+  padding: 0 20px;     
+}
+.project-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;   
+  border-radius: 10px;
+  display: block;
+}
+
+
+
+
+
+.contact {
+  text-align: center;
+  padding: 10px;
+}
+
+
+.footer {
+  position: relative;
+  width: 100%;
+}
+
+.footer-inner {
+  max-width: 1460px;    
+  margin: 0 auto;
+  position: relative;    
+}
+.footer-img {
+  width: 100%;
+  display: block;
+}
+
+.footer-text {
+  position: absolute;
+  top: 90px;        /* adjust to match your Figma */
+  left: 120px;      /* adjust to match your Figma */
+  z-index: 10;
+  color: #5b3b2e;   /* dark brown like the screenshot */
+  text-align: left;
+}
+
+.footer-text h2 {
+  margin: 0;
+  font-size: 86px;        /* big title */
+  font-weight: 400;       /* not bold */
+  letter-spacing: 1px;
+ font-family: Inter; /* you already load this font */
+}
+
+.footer-text p {
+  margin: 22px 0 0;
+  font-size: 56px;        /* big email like screenshot */
+  font-weight: 400;
+  font-family: Inter;
+  text-decoration: underline;          /* underline like Figma */
+  text-underline-offset: 10px;         /* pushes underline down */
+  text-decoration-thickness: 3px;      /* thicker underline */
+}
+
